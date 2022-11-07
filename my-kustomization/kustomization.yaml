@@ -1,0 +1,4 @@
+resources:
+- https://github.com/redhat-developer-demos/openshift-gitops-examples/components/kustomize-build?ref=main
+
+namespace: e2e-rbac-test-1

@@ -1,0 +1,11 @@
+apiVersion: policy.open-cluster-management.io/v1
+kind: PolicyGenerator
+metadata:
+  name: policy-generator-kustomize
+policyDefaults:
+  namespace: my-policies
+  remediationAction: inform
+policies:
+- name: my-kustomized-app
+  manifests:
+    - path: my-kustomization/
